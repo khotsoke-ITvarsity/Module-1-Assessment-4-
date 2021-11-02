@@ -1,0 +1,32 @@
+table{
+     font-family : Helvetica, sans-serif;
+    border-collapse: collapse;
+     border-width   : 1px;
+      border-style   : solid;
+      border-color   :#95a626;
+}
+
+th {
+     font-weight: 800;
+}
+tr:nth-child(even){background-color:wheat;}
+tr:nth-child(odd){background-color:goldenrod;}
+th {
+    font-weight     : 800;
+    background-color: #95a626 ;
+    color           : #ffffff;
+}
+h1 {
+	margin: 1em 0 0.5em 0;
+	color: #95a626;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+body {
+  background: linear-gradient(to right,
+     red 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80%);
+}
